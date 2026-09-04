@@ -1,4 +1,4 @@
-const CACHE='fortune-fables-offline-v5';
+const CACHE='fortune-fables-offline-v6';
 const BASE=new URL(self.registration.scope).pathname.replace(/\/$/,'');
 const path=(value)=>`${BASE}${value}`;
 const SHELL=['/','/manifest.webmanifest','/app-icon.svg','/fortune-fables-mark.png','/assets/app.js','/assets/app.css'].map(path);
@@ -8,3 +8,4 @@ self.addEventListener('fetch',event=>{
   if(event.request.method!=='GET')return;
   event.respondWith(fetch(event.request).then(response=>{const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(event.request,copy));return response;}).catch(()=>caches.match(event.request).then(cached=>cached||caches.match(path('/')))));
 });
+
