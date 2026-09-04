@@ -9,6 +9,6 @@
   "theme_color": "#274c3a",
   "orientation": "portrait-primary",
   "icons": [
-    { "src": "app-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+    { "src": "fortune-fables-mark.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }

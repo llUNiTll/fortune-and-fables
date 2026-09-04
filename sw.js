@@ -1,4 +1,4 @@
-const CACHE='fortune-fables-offline-v4';
+const CACHE='fortune-fables-offline-v5';
 const BASE=new URL(self.registration.scope).pathname.replace(/\/$/,'');
 const path=(value)=>`${BASE}${value}`;
 const SHELL=['/','/manifest.webmanifest','/app-icon.svg','/fortune-fables-mark.png','/assets/app.js','/assets/app.css'].map(path);
