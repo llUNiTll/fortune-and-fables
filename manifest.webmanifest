@@ -1,6 +1,6 @@
 {
   "name": "Fortune & Fables",
-  "short_name": "Fortune",
+  "short_name": "Fortune & Fables",
   "description": "Lead your own financial adventure.",
   "start_url": "./",
   "scope": "./",
@@ -12,3 +12,4 @@
     { "src": "fortune-fables-mark.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }
+
