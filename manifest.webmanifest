@@ -1,0 +1,14 @@
+{
+  "name": "Fortune & Fables",
+  "short_name": "Fortune",
+  "description": "Lead your own financial adventure.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f0df",
+  "theme_color": "#274c3a",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "app-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
